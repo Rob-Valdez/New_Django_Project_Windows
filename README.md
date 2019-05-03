@@ -1,4 +1,4 @@
-# New_Python_Env_Windows
+# New_Django_Project_Windows
 
 Install Anaconda from website
 
