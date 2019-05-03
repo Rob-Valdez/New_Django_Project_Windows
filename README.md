@@ -12,8 +12,6 @@ install Git
 
 create project directory
 
-initiate git in directory
-
 activate virtual env shell (pipenv shell)
 
 pip install Django
@@ -41,4 +39,16 @@ create app url
 create env variable from django secret key
 
 python manage.py runserver
+
+initiate git in project directory
+
+stage files in git
+
+create github repo
+
+commit files for change
+
+git remote add origin
+
+git push -u origin master
 
