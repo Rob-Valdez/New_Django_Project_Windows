@@ -52,3 +52,23 @@ git remote add origin
 
 git push -u origin master
 
+pipenv install gunicorn
+
+pipenv lock
+
+install heroku cli tool (https://devcenter.heroku.com/articles/getting-started-with-python#set-up)
+
+heroku create
+
+create Profile for project
+must be on same path as manage.py
+add "web: gunicorn [projectname].wsgi --log-file -" to Procfile
+
+create requirements.txt
+add 
+"
+django
+gunicorn
+"
+
+git push heroku master
